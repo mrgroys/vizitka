@@ -139,6 +139,10 @@
   color:#bdbdbd;
 }
 
+.part2 {
+  margin-top: 30px;
+}
+
 .part2 input[type="radio"] {
   appearance: none;
   -webkit-appearance: none;
@@ -212,10 +216,31 @@
   margin-left: 133px;
 }
 
+.buttonGuests {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 3px solid #555555;
+  font-weight: 800;
+  color:#555555;
+  background-color: #ffffff;
+}
 
+.buttonGuests:hover {
+  background-color: #dcdcdc;
+}
 
+.buttonGuests:active {
+  background-color: #b3b3b3;
+}
 
-
-
-
-
+.countGuests {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}

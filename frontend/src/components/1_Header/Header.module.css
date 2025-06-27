@@ -1,17 +1,23 @@
 .page {
-  background-color: #ffffff;
+    background-color: #ffffff;
 }
 
 .Main {
-  display: flex;
-  flex-direction: column;
-  background: url('/fon.jpg') no-repeat center center fixed;
-  background-size: cover;
-  height: 100vh;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  color:#555555;
+    background: url('/fon.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+.titleMain {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color:#555555;
+    z-index: 1;
 }
 
 .Timer {
@@ -211,11 +217,3 @@
   font-size: 20px;
   margin-left: 133px;
 }
-
-
-
-
-
-
-
-
